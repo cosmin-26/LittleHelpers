@@ -1,0 +1,47 @@
+<div class="main">
+    <p class="Intro">Educația este cheia succesului 
+        <br>
+        Bine ai venit la ușa pe care o deschide!
+    </p>
+    <svg [attr.width]="size" [attr.height]="size">
+      <g *ngFor="let triangle of triangles; let i = index">
+        
+        <polygon 
+          [attr.points]="triangle.points" 
+          [attr.fill]="triangle.color"
+          style="cursor: pointer;"
+        />
+    
+        <!-- Optional text inside SVG -->
+        <text
+          [attr.x]="triangle.textX"
+          [attr.y]="triangle.textY"
+          text-anchor="middle"
+          font-size="12"
+          fill="white"
+          style="pointer-events: none;"
+        >
+        <tspan *ngFor="let line of triangle.text.split('\n'); let i = index"
+        [attr.x]="triangle.textX"
+        [attr.dy]="i === 0 ? '0' : '1.2em'">
+        {{ line }}
+        </tspan>
+        </text>
+
+    
+        <!-- Clickable router link using foreignObject -->
+        <foreignObject 
+          [attr.x]="triangle.linkX" 
+          [attr.y]="triangle.linkY" 
+          width="100" height="30"
+          style="overflow: visible;"
+        >
+          <a [routerLink]="triangle.link" style="display: block; width: 100%; height: 100%;">
+            <div style="width: 100%; height: 100%;"></div> <!-- Transparent clickable area -->
+          </a>
+        </foreignObject>
+        
+      </g>
+    </svg>
+    
+</div>

@@ -1,0 +1,13 @@
+:host {
+    display: block;
+    background: linear-gradient(90deg, #7F52FF, #FFA756);
+    color: white;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  
+  h1, p {
+    font-family: 'Cursive', sans-serif;
+    text-align: center;
+  }
+  

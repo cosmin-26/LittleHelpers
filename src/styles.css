@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #7F52FF, #FFA756);
+    color: white;
+    font-family: 'Cursive', sans-serif;
+  }
+    
+  h1, p {
+    font-family: 'Cursive', sans-serif;
+    text-align: center;
+  }
+.main{
+    justify-content: center;
+
+}
+  
