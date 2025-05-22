@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Unde se află metalele în tabelul periodic?",
+    "options": ["În dreapta", "În mijloc", "În stânga", "În partea de jos"],
+    "correctIndex": 2
+  },
+  {
+    "question": "Ce caracteristică este specifică nemetalelor?",
+    "options": ["Conduc bine electricitatea", "Nu conduc curentul electric", "Au luciu metalic", "Sunt ductile"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Ce proprietate au gazele rare?",
+    "options": ["Reacționează ușor cu alte elemente", "Sunt metale moi", "Sunt foarte stabile chimic", "Sunt radioactive"],
+    "correctIndex": 2
+  }
+]

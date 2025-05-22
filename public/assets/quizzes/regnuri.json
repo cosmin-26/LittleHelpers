@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Care este criteriul principal de separare între organismele din regnul Monera și cele din Protista?",
+    "options": ["Tipul de reproducere", "Prezența nucleului delimitat", "Locomotia", "Structura peretelui celular"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Ce caracteristică diferențiază regnul Fungi de cel Plantae?",
+    "options": ["Prezența vacuolei", "Reproducerea sexuată", "Pereții celulari din chitina", "Autotrofia"],
+    "correctIndex": 2
+  },
+  {
+    "question": "Din ce regn face parte alga unicelulară Euglena, care are atât trăsături autotrofe, cât și heterotrofe?",
+    "options": ["Plantae", "Protista", "Monera", "Fungi"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Organismele pluricelulare, heterotrofe, care nu au perete celular, aparțin regnului:",
+    "options": ["Plantae", "Monera", "Fungi", "Animalia"],
+    "correctIndex": 3
+  },
+  {
+    "question": "Care este o caracteristică specifică regnului Monera?",
+    "options": ["Celule cu nucleu delimitat", "Organisme eucariote", "Reproducere doar sexuată", "Material genetic dispersat în citoplasmă"],
+    "correctIndex": 3
+  },
+  {
+    "question": "Toate organismele din regnul Animalia sunt:",
+    "options": ["Heterotrofe, eucariote și fără perete celular", "Autotrofe, multicelulare și cu nucleu", "Procariote, mobile și cu perete celular", "Unicelulare, eucariote și autotrofe"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Care regn include organisme care formează micelii și se reproduc prin spori?",
+    "options": ["Protista", "Fungi", "Plantae", "Monera"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Un exemplu de organism din regnul Monera este:",
+    "options": ["Drojdia de bere", "Ameba", "Escherichia coli", "Mucegaiul verde"],
+    "correctIndex": 2
+  },
+  {
+    "question": "Cum se numește procesul prin care bacteriile se înmulțesc?",
+    "options": ["Fisiune binară", "Sporulare", "Diviziune mejoasă", "Fragmentare"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Ce regn include organisme ce pot provoca boli, dar și ajuta la digestie?",
+    "options": ["Animalia", "Fungi", "Protista", "Monera"],
+    "correctIndex": 3
+  }
+]

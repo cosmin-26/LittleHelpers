@@ -1,0 +1,136 @@
+[
+  {
+    "question": "Arderea alcanilor este o reacție de oxidare ..........",
+    "options": ["completă", "incompletă"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Prin arderea a ........ etan se obțin 2 moli de CO₂.",
+    "options": ["1 mol", "2 moli"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Alcanii superiori sunt în stare ...........",
+    "options": ["lichidă", "solidă"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Benzina .......... un bun solvent pentru grăsimi.",
+    "options": ["este", "nu este"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Prin arderea a 2 moli de alcan necunoscut se obțin 108 g vapori de apă. Alcanul este:",
+    "options": ["metanul", "etanul", "propanul", "butanul"],
+    "correctIndex": 2
+  },
+  {
+    "question": "Volumul de aer (cu 20% O₂) necesar arderii a 200 g propan de puritate 88% este:",
+    "options": ["448 L", "2240 L", "1120 L", "896 L"],
+    "correctIndex": 1
+  },
+  {
+    "question": "La arderea a 2 kg de CH₄ (puritate 96%) se degajă o cantitate de căldură egală cu:",
+    "options": ["6359,59 kcal", "12719,18 kcal", "25438,37 kcal", "50876,74 kcal"],
+    "correctIndex": 2
+  },
+  {
+    "question": "Se ard 2 moli butan cu o cantitate stoechiometrică de aer (cu 20% O₂). Amestecul gazos obținut conține:",
+    "options": ["52 moli N₂", "13 moli O₂", "4 moli CO₂", "5 moli H₂O"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Reacția de oxidare:\n1) poate fi completă, numită de obicei ardere;\n2) incompletă sau parțială, conduce la compuși organici cu grupe funcționale care conțin oxigen;\n3) completă este însoțită de degajarea unei cantități mari de căldură;\n4) la alcani nu poate fi decât totală.",
+    "options": ["A", "B", "C", "D", "E"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Alcanii superiori:\n1) sunt în stare lichidă;\n2) se folosesc ca solvenți;\n3) nu se pot oxida;\n4) au moleculele polare.",
+    "options": ["A", "B", "C", "D", "E"],
+    "correctIndex": 3
+  },
+  {
+    "question": "Referitor la arderea alcanilor cu aer sunt adevărate afirmațiile:\n1) Are loc cu degajare de căldură.\n2) Amestecul gazos obținut conține CO₂ și H₂O.\n3) A determinat utilizarea acestora drept combustibili.\n4) 1 mol de metan se arde cu 2 moli aer.",
+    "options": ["A", "B", "C", "D", "E"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Câteva direcții de aplicații practice ale metanului sunt:\n1) combustibil;\n2) obținerea negrului de fum;\n3) obținerea gazului de sinteză;\n4) solvent.",
+    "options": ["A", "B", "C", "D", "E"],
+    "correctIndex": 2
+  },
+  {
+    "question": "Se diclorurează 200 g de metan de puritate 96%. Masa de soluție de HCl 10% care se poate obține prin dizolvarea în apă a acidului clorhidric rezultat este:",
+    "options": [
+      "8,76 kg",
+      "4,38 kg",
+      "2,19 kg",
+      "876 g"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "La descompunerea termică a butanului se obține un număr de alchene egal cu:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La piroliza propanului se degajă 44,8 L H₂ măsurat în condiții normale. Masa de propan cu 20% impurități supusă pirolizei a fost:",
+    "options": [
+      "88 g",
+      "44 g",
+      "110 g",
+      "11 g"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Prin bromurarea metanului se obține un compus care conține 84,21% Br. Compusul este:",
+    "options": [
+      "CBr₄",
+      "CHBr₃",
+      "CH₂Br₂",
+      "CH₃Br"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Propanul:\n1) în condiții standard se află în stare lichidă;\n2) este omologul superior al etanului;\n3) are punctul de fierbere mai mare decât al butanului;\n4) este inodor.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "2,2,4-trimetilpentanul:\n1) este izomer cu n-octanul;\n2) are cifra octanică (C.O.) egală cu 100;\n3) conține 26 de atomi în moleculă;\n4) conține 74% C în procente masice.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "question": "Referitor la reacțiile de izomerizare sunt adevărate afirmațiile:\n1) Au loc în prezența clorurii de aluminiu umede.\n2) Sunt reacții reversibile.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 4
+  }
+
+]

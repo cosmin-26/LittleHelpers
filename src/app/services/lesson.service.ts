@@ -30,11 +30,99 @@ export class LessonService {
       topic: 'stiinte-exacte',
       subject: 'biologie',
       grade: '9',
-      chapter: 'Forme de viata',
+      chapter: 'Diversitatea lumii vii',
+      title: 'Introducere',
+      contentPath:  'assets/stiinte-exacte/biologie/9/regnuri/introducere.html',
+      quizID:"regnuri"
+    },
+    {
+      id: 10,
+      topic: 'stiinte-exacte',
+      subject: 'biologie',
+      grade: '9',
+      chapter: 'Diversitatea lumii vii',
+      title: 'Monera',
+      contentPath:  'assets/stiinte-exacte/biologie/9/regnuri/monera.html',
+      quizID:"regnuri"
+    },
+    {
+      id: 11,
+      topic: 'stiinte-exacte',
+      subject: 'biologie',
+      grade: '9',
+      chapter: 'Diversitatea lumii vii',
+      title: 'Protista',
+      contentPath:  'assets/stiinte-exacte/biologie/9/regnuri/protista.html',
+      quizID:"regnuri"
+    },
+    {
+      id: 12,
+      topic: 'stiinte-exacte',
+      subject: 'biologie',
+      grade: '9',
+      chapter: 'Diversitatea lumii vii',
+      title: 'Fungi',
+      contentPath:  'assets/stiinte-exacte/biologie/9/regnuri/fungi.html',
+      quizID:"regnuri"
+    },
+    {
+      id: 13,
+      topic: 'stiinte-exacte',
+      subject: 'biologie',
+      grade: '9',
+      chapter: 'Diversitatea lumii vii',
+      title: 'Plantee',
+      contentPath:  'assets/stiinte-exacte/biologie/9/regnuri/plante.html',
+      quizID:"regnuri"
+    },
+    {
+      id: 14,
+      topic: 'stiinte-exacte',
+      subject: 'biologie',
+      grade: '9',
+      chapter: 'Diversitatea lumii vii',
       title: 'Animalae',
-      contentPath:  'assets/stiinte-exacte/biologie/9/celule/introducere.html',
-      quizID:"celule-intro"
-
+      contentPath:  'assets/stiinte-exacte/biologie/9/regnuri/animalae.html',
+      quizID:"regnuri"
+    },
+    {
+      id: 8311,
+      topic: 'stiinte-exacte',
+      subject: 'chimie',
+      grade: '9',
+      chapter: 'Tabelul periodic și grupele importante',
+      title: 'Introducere',
+      contentPath:  'assets/stiinte-exacte/chimie/9/tabelperiodic/introducere.html',
+      quizID:"Tabel"
+    },
+    {
+      id: 9311,
+      topic: 'stiinte-exacte',
+      subject: 'chimie',
+      grade: '10',
+      chapter: 'Alcani',
+      title: 'Introducere',
+      contentPath:  'assets/stiinte-exacte/chimie/10/alcani/introducere.html',
+      quizID:"alcani"
+    },{
+      id: 9312,
+      topic: 'stiinte-exacte',
+      subject: 'chimie',
+      grade: '10',
+      chapter: 'Alcani',
+      title: 'Halogenare',
+      contentPath:  'assets/stiinte-exacte/chimie/10/alcani/halogenare.html',
+      quizID:"alcani"
+    },
+    {
+      id: 9313,
+      topic: 'stiinte-exacte',
+      subject: 'chimie',
+      grade: '10',
+      chapter: 'Alcani',
+      title: 'Oxigenare',
+      contentPath:  'assets/stiinte-exacte/chimie/10/alcani/oxigenare.html',
+      quizID:"alcani"
     },
     {
       id: 4,
