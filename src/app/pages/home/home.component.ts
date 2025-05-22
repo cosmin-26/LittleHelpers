@@ -1,6 +1,6 @@
 import { NgForOf } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterModule } from "@angular/router";
+import { Router,RouterModule } from "@angular/router";
 
 interface Triangle {
   points: string;
@@ -23,7 +23,7 @@ export class HomeComponent {
   size: number = 400; // Size of the hexagon
   triangles: Triangle[] = [];
 
-  constructor() {
+  constructor(private router:Router) {
     this.generateHexagon();
   }
 
@@ -84,11 +84,15 @@ export class HomeComponent {
         text: texts[i],
         textX,
         textY,
-        link: '/lessons/' + texts[i].replace(/\s+/g, '-').toLowerCase(),
+        link: '/lessons' + links[i].replace(/\s+/g, '-').toLowerCase(),
         linkX,
         linkY
       });
-      console.log('/lessons/' + texts[i].replace(/\s+/g, '-').toLowerCase())
     }
   }  
+  
+  goToPage(_link:string){
+    console.log(_link);
+    this.router.navigate([_link]);
+  }
 }

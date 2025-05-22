@@ -1,0 +1,39 @@
+<h2>Lessons for "{{ topic | titlecase }}"</h2>
+
+<div *ngFor="let subject of Object.keys(groupedBySubject)" class="subject-block">
+  <h3>{{ subject | titlecase }}</h3>
+
+  <!-- Grade dropdown -->
+  <label>
+    Clasa:
+    <select [(ngModel)]="selectedGrade[subject]">
+      <option *ngFor="let grade of grades" [value]="grade">{{ grade }}</option>
+    </select>
+  </label>
+
+  <div *ngIf="groupedBySubject[subject][selectedGrade[subject]]" >
+    <!-- Loop through chapters -->
+    <div *ngFor="let chapter of Object.keys(groupedBySubject[subject][selectedGrade[subject]])">
+      <h4>Capitol: {{ chapter }}</h4>
+      <ul>
+        <li *ngFor="let lesson of groupedBySubject[subject][selectedGrade[subject]][chapter]">
+          <div class="lesson" (click)="goToLesson(lesson)" style="cursor:pointer; color:#3f51b5;">
+            {{ lesson.title }}
+          </div>
+        </li>
+      </ul>
+
+      <!-- Buton grilă pentru capitol -->
+        <button 
+          *ngIf="groupedBySubject[subject][selectedGrade[subject]][chapter].length"
+          (click)="goToChapterQuiz(groupedBySubject[subject][selectedGrade[subject]][chapter][0])"
+          style="margin-top: 10px; background-color: #3f51b5; color: white; border: none; border-radius: 6px; padding: 8px 16px; cursor: pointer;">
+          Grilă pentru capitol
+        </button>
+    </div>
+  </div>
+
+  <p *ngIf="!groupedBySubject[subject][selectedGrade[subject]]">
+    Nu avem lectii pentru clasa a {{ selectedGrade[subject] }}-a.
+  </p>
+</div>

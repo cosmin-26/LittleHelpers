@@ -1,0 +1,30 @@
+<div class="quiz-container" *ngIf="questions.length">
+  <div *ngFor="let question of questions; let i = index" class="question-block">
+    <h3>{{ question.question }}</h3>
+
+    <label
+      *ngFor="let option of question.options; let j = index"
+      class="option-label"
+      [ngClass]="{
+        'correct': showResults && j === question.correctIndex,
+        'incorrect': showResults && userAnswers[i] === j && j !== question.correctIndex
+      }"
+    >
+      <input
+        type="radio"
+        [name]="'question' + i"
+        [value]="j"
+        [checked]="userAnswers[i] === j"
+        (change)="selectAnswer(i, j)"
+        [disabled]="showResults"
+      />
+      {{ option }}
+    </label>
+  </div>
+
+  <button class="submit-button" (click)="submitQuiz()" [disabled]="showResults">Trimite</button>
+
+  <div class="results" *ngIf="showResults">
+    <p>Ai obținut {{ score }} / {{ questions.length }} puncte.</p>
+  </div>
+</div>

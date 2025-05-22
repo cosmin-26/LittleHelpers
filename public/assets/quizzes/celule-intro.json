@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Care este unitatea structurală a organismelor?",
+    "options": ["Țesutul", "Celula", "Organul", "Sistemul"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Ce conține nucleul celular?",
+    "options": ["Citoplasmă", "ADN", "Ribozomi", "Cloroplaste"],
+    "correctIndex": 1
+  }
+]

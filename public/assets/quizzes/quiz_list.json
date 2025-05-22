@@ -1,0 +1,20 @@
+[
+  {
+    "id": "celule-intro",
+    "title":"Introducere in biologie",
+    "topic": "stiinte-exacte",
+    "subject": "biologie",
+    "grade": "9",
+    "chapter": "celule"
+  },
+  {
+    "id": "molecule",
+    "title": "Molecule esențiale",
+    "path": "assets/stiinte-exacte/biologie/9/celule/molecule.json"
+  },
+  {
+    "id": "fotosinteza",
+    "title": "Fotosinteza",
+    "path": "assets/stiinte-exacte/biologie/9/celule/fotosinteza.json"
+  }
+]
